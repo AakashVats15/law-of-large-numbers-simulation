@@ -25,7 +25,10 @@ This means:
 law-of-large-numbers-simulation/
 │
 ├── src/
-│   └── simulate_lln.py
+│   └── simulations
+        └──simulate_lln.py
+    └── plots
+        └── plots_lln.py
 │
 ├── notebooks/
 │   └── LLN_Demo.ipynb
