@@ -25,10 +25,13 @@ This means:
 law-of-large-numbers-simulation/
 │
 ├── src/
+    └──__init__.py
 │   └── simulations
         └──simulate_lln.py
+        └──__init__.py
     └── plots
         └── plots_lln.py
+        └──__init__.py
 │
 ├── notebooks/
 │   └── LLN_Demo.ipynb
@@ -50,10 +53,10 @@ pip install -r requirements.txt
 Run the demo:
 
 ```bash
-python src/simulate_lln.py
+python main.py
 ```
 
-You’ll see a plot showing how the running sample mean approaches the true mean.
+You’ll see a plot showing how the running sample mean approaches the true mean. Increase or decrease the "n" samples to see the convergence in action.
 
 ---
 
